@@ -1,1 +1,5 @@
-@@import url(./atomes/h1__header.css);
+.h1__header {
+  color: green;
+  font-size: 35px; }
+
+/*# sourceMappingURL=index.css.map */

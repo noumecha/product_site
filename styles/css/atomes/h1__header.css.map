@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAGA,WAAY;EAEV,KAAK,ECCM,KAAK;EDAhB,SAAS,ECMU,IAAI",
-"sources": ["../../sass/atomes/h1__header.scss","../../sass/variables.scss"],
-"names": [],
-"file": "h1__header.css"
-}
