@@ -1,0 +1,18 @@
+@import "../variables";
+
+.boutton {
+
+    border: 0;
+    border-radius: $tmc_default_btn_radius - 5px;
+    background:$tmc_primary;
+    padding:$tmc_default_padding - 15px;
+    color: $tmc_thirdly;
+    font-size:$tmc_text_size;
+
+    &:hover {
+
+        background:$tmc_fourthly;
+
+    }
+
+}

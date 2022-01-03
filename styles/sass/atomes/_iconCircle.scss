@@ -1,0 +1,9 @@
+@import "../variables";
+
+
+.iconCircle {
+
+    @import "../atomes/icon";
+    border-radius:$tmc_default_border_radius;
+
+}

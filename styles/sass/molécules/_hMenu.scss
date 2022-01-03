@@ -1,0 +1,30 @@
+@import "../variables";
+
+.hMenu {
+
+    overflow:hidden;
+    background:$tmc_secondary;
+    display:inline-block;
+    position:fixed;
+    top:0;
+    left:0;
+    margin:0 auto;
+    //bottom:0;
+    width:100%;
+
+    .link {
+
+        //float:right;
+        display:inline-block;
+        text-align:center;
+        padding:$tmc_default_padding;
+
+    }
+    .link:hover{
+
+        background:$tmc_primary;
+        color:white;
+
+    }
+
+}

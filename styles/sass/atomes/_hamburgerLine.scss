@@ -1,0 +1,10 @@
+@import "../variables";
+
+.hamburgerLine {
+
+    width:$tmc_icon_width;
+    height:5px;
+    background-color:$tmc_thirdly;
+    margin:($tmc_default_margin - 4px) 0;
+
+}

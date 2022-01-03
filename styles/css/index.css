@@ -1,5 +1,113 @@
-.h1__header {
-  color: green;
-  font-size: 35px; }
+.h1__title {
+  color: #04BF37;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: capitalize; }
+
+.link {
+  color: #FCFEFD;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 20px; }
+
+.icon {
+  display: block;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  padding: 10px;
+  background: #0B0C0C; }
+
+.hamburgerLine {
+  width: 35px;
+  height: 5px;
+  background-color: #FCFEFD;
+  margin: 6px 0; }
+
+.boutton {
+  border: 0;
+  border-radius: 2px;
+  background: #04BF37;
+  padding: 10px;
+  color: #FCFEFD;
+  font-size: 22px; }
+  .boutton:hover {
+    background: #1CA6E1; }
+
+.circleImageContainer {
+  display: block;
+  border-radius: 50%;
+  background: #0B0C0C; }
+
+.iconCircle {
+  border-radius: 50%; }
+  .iconCircle .icon {
+    display: block;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    padding: 10px;
+    background: #0B0C0C; }
+
+.image {
+  display: block;
+  background: #0B0C0C; }
+
+.imageCircle {
+  display: block;
+  border-radius: 50%;
+  background: #04BF37; }
+
+.inputText {
+  border: 0;
+  border-bottom: 2px solid #04BF37;
+  margin: 15px auto; }
+  .inputText:focus {
+    outline: 0;
+    border-bottom: 2px solid #1CA6E1; }
+
+.textArea {
+  border: 0;
+  margin: 7px auto;
+  border-bottom: 2px solid #04BF37; }
+  .textArea:focus {
+    outline: 0;
+    background-color: rgba(0, 255, 0, 0.3);
+    border-bottom: 2px solid #1CA6E1; }
+
+.labelText {
+  font-size: 22px;
+  text-align: justify; }
+
+.pText {
+  text-align: justify;
+  font-size: 22px; }
+
+.hMenu {
+  overflow: hidden;
+  background: #0B0C0C;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%; }
+  .hMenu .link {
+    display: inline-block;
+    text-align: center;
+    padding: 25px; }
+  .hMenu .link:hover {
+    background: #04BF37;
+    color: white; }
+
+body {
+  left: 0;
+  top: 0; }
+  @media only screen and (max-width: 480px) {
+    body {
+      left: 0;
+      right: 0;
+      top: 0; } }
 
 /*# sourceMappingURL=index.css.map */

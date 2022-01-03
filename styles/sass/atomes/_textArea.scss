@@ -1,0 +1,17 @@
+@import "../variables";
+
+.textArea {
+
+    border:0;
+    margin:7px auto;
+    border-bottom: $tmc_default_border ;
+
+    &:focus {
+
+        outline:0;
+        background-color:rgba($color: #00FF00, $alpha: 0.3);
+        border-bottom:2px solid $tmc_fourthly;
+
+    }
+
+}

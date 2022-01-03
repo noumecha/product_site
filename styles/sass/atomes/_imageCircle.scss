@@ -1,0 +1,9 @@
+@import "../variables";
+
+.imageCircle {
+
+    display: block ;
+    border-radius:$tmc_default_border_radius;
+    background:$tmc_primary;
+
+}

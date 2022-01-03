@@ -1,0 +1,12 @@
+@import "../variables";
+
+.icon {
+
+    display: block ;
+    height:$tmc_icon_height;
+    width:$tmc_icon_width;
+    cursor:pointer;
+    padding:$tmc_default_padding - 15px;
+    background:$tmc_secondary;
+
+}

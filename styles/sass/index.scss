@@ -1,2 +1,28 @@
 @import "./variables";
-@import "./atomes/_h1__header";
+@import "./atomes/h1__title";
+@import "./atomes/link";
+@import "./atomes/icon";
+@import "./atomes/hamburgerLine";
+@import "./atomes/boutton";
+@import "./atomes/circleImageContainer";
+@import "./atomes/iconCircle";
+@import "./atomes/image";
+@import "./atomes/imageCircle";
+@import "./atomes/inputText";
+@import "./atomes/textArea";
+@import "./atomes/labelText";
+@import "./atomes/pText";
+@import "./molécules/hMenu";
+
+body {
+
+    left:0;
+    top:0;
+
+    @media only screen and (max-width: 480px) {
+        left:0;
+        right:0;
+        top:0;
+    }
+
+}

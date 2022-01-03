@@ -1,0 +1,12 @@
+// @include ;
+@import "../variables";
+
+.h1__title {
+
+  color:$tmc_primary;
+  font-size:$tmc_title_size;
+  text-align: center;
+  font-family: $tmc_family;
+  text-transform: capitalize;
+
+}
