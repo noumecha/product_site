@@ -1,0 +1,26 @@
+@import "../variables";
+@import "../atomes/link";
+
+.flexContainer {
+
+    display:inline-block;
+
+    .link { 
+
+        //flex-grow: 1;
+        //flex-basis: 0;
+        display:inline-block;
+        padding: $tmc_link_btn_padding;
+        color: white;
+        width: auto;
+
+        &:hover {
+
+            background:$tmc_primary;
+            color:white;
+
+        }
+
+    }
+
+}

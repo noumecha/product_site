@@ -1,0 +1,20 @@
+@import "../variables";
+
+.hamburgerMenu {
+
+    position: relative;
+    color:$tmc_thirdly;
+    //margin:0 auto;
+    padding:$tmc_default_padding - 10px;
+    top:0;
+    background:$tmc_secondary;
+    //border:1px solid white;
+
+    &:hover {
+
+        background:$tmc_primary;
+        color:$tmc_thirdly;
+
+    }
+
+}
