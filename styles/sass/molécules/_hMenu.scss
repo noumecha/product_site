@@ -54,4 +54,34 @@
 
     }
 
+   @media screen and (max-width: 820px) {
+
+        .flexContainer .link{
+
+            box-sizing: border-box;
+            display: block;
+            border:1px solid black;
+            width: 100%;
+            border-top: 1px solid $tmc_primary;
+
+        }
+
+        label, .hamburgerMenu {
+
+            display: inline-block;
+            font-style: normal;
+            padding:$tmc_default_padding - 10px;
+
+        }
+
+        .flexContainer .link { display:none; }
+
+        input[type="checkbox"]:checked ~ .flexContainer .link { 
+            
+            display:inline-block;
+
+        }
+
+    }
+
 }
