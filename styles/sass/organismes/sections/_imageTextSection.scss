@@ -4,10 +4,12 @@
 
     display:inline-block;
     width: 100%;
-    height:600px;
-    margin:0 auto;
-    padding:0;
-    border-top:2px solid blue;
+    height:450px;
+    margin:10px auto;
+    margin-bottom:10px;
+    padding-top:20px;
+    position:relative;
+    //border:1px solid blue;
     //background:$tmc_primary;e;
     text-align: center;
 
@@ -15,24 +17,88 @@
 
         display: block;
         margin: 0 auto;
-        right:0;
-        border:1px solid black;
+        float:left;
+        border:none;
+        //border:1px solid black;
 
     }
 
     .line {
 
-        display: inline-block;
-        height:60px;
+        display: block;
+        margin-left: 50px;
+        margin-top:2.5%;
+        height:80%;
+        background:$tmc_fourthly;
+        float:left;
 
     }
 
     .responsiveText {
 
-        left:0;
         margin:0 auto;
+        margin-left:50px;
         display:block;
-        border:1px solid black;
+        float: left;
+        border:none;
+        //border:1px solid black;
+
+    }
+
+
+    @media only screen and (max-width: 480px) {
+
+       // height:auto;
+
+        .line {
+
+            display:none;
+
+        }
+
+        .responsiveText {
+
+            margin: 0;
+            padding:0;
+            //padding-left:6px;
+            text-align:center;
+            display:block;
+            width: 100%;
+            height:auto;
+
+        }
+
+    }
+
+    @media only screen and (max-width: 720px) {
+
+        height: auto;
+
+        .line {
+
+            display:none;
+
+        }
+
+        .imageResBlock {
+
+            display:block;
+            width: 100%;
+            padding: 0;
+            margin:0;
+
+        }
+
+        .responsiveText {
+
+            display:block;
+            width: 90%;
+            margin: 0;
+            padding-left:20px;
+            //padding:0;
+            text-align: center;
+
+        }
 
     }
 

@@ -1,0 +1,16 @@
+@import "../variables";
+
+.iconCont {
+
+    display:block;
+    background:$tmc_primary;
+    text-align: center;
+
+    .icon {
+
+        display:inline-block;
+        border-radius: 50%;
+
+    }
+   
+}

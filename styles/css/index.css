@@ -200,6 +200,7 @@
       width: 100%;
       height: 300px;
       padding: 0;
+      margin: 0;
       border: none;
       left: 0; }
       .responsiveText .pText {
@@ -263,18 +264,46 @@
   transition: background-color 0.6s ease; }
 
 .pageFooter {
-  right: 0;
-  left: 0;
   margin: 0;
+  margin-top: 10px;
+  bottom: 0;
+  padding-top: 85px;
+  padding-bottom: 85px;
   width: 100%;
-  padding: 0;
-  background: #04BF37;
-  text-align: center; }
-  .pageFooter .link {
+  height: auto;
+  position: relative;
+  background: #0B0C0C; }
+  .pageFooter code {
+    margin-top: 70px;
+    bottom: 0;
     display: block;
-    position: relative;
+    width: 100%;
     text-align: center;
-    margin-top: 2px; }
+    color: #FCFEFD; }
+  .pageFooter .iconCont {
+    background: inherit;
+    display: inline-block;
+    margin-top: 20px;
+    margin-top: 20px;
+    width: 100%;
+    color: #FCFEFD;
+    font-weight: bold;
+    font-size: 20px; }
+    .pageFooter .iconCont a {
+      text-decoration: none;
+      color: #FCFEFD; }
+    .pageFooter .iconCont .icon {
+      display: inline-block;
+      border-color: #FCFEFD; }
+  .pageFooter .hLine {
+    display: block;
+    margin-top: 10px;
+    width: 80%;
+    height: 1px;
+    margin-left: 10%; }
+  @media only screen and (max-width: 480px) {
+    .pageFooter .iconCont {
+      font-size: 15px; } }
 
 .titlePresent {
   display: block;
@@ -287,9 +316,15 @@
   text-align: center; }
   .titlePresent .h1__title {
     text-align: center;
+    text-transform: uppercase;
     color: #FCFEFD; }
   .titlePresent .pText {
     text-align: center; }
+  @media only screen and (max-width: 480px) {
+    .titlePresent .h1__title {
+      font-size: 22px; }
+    .titlePresent .pText {
+      font-size: 16px; } }
 
 .entete {
   display: block;
@@ -318,24 +353,68 @@
 .imageTextSection {
   display: inline-block;
   width: 100%;
-  height: 600px;
-  margin: 0 auto;
-  padding: 0;
-  border-top: 2px solid blue;
+  height: 450px;
+  margin: 10px auto;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  position: relative;
   text-align: center; }
   .imageTextSection .imageResBlock {
     display: block;
     margin: 0 auto;
-    right: 0;
-    border: 1px solid black; }
+    float: left;
+    border: none; }
   .imageTextSection .line {
-    display: inline-block;
-    height: 60px; }
-  .imageTextSection .responsiveText {
-    left: 0;
-    margin: 0 auto;
     display: block;
-    border: 1px solid black; }
+    margin-left: 50px;
+    margin-top: 2.5%;
+    height: 80%;
+    background: #1CA6E1;
+    float: left; }
+  .imageTextSection .responsiveText {
+    margin: 0 auto;
+    margin-left: 50px;
+    display: block;
+    float: left;
+    border: none; }
+  @media only screen and (max-width: 480px) {
+    .imageTextSection .line {
+      display: none; }
+    .imageTextSection .responsiveText {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      display: block;
+      width: 100%;
+      height: auto; } }
+  @media only screen and (max-width: 720px) {
+    .imageTextSection {
+      height: auto; }
+      .imageTextSection .line {
+        display: none; }
+      .imageTextSection .imageResBlock {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0; }
+      .imageTextSection .responsiveText {
+        display: block;
+        width: 90%;
+        margin: 0;
+        padding-left: 20px;
+        text-align: center; } }
+
+.hLine {
+  display: block;
+  background: #FCFEFD; }
+
+.iconCont {
+  display: block;
+  background: #04BF37;
+  text-align: center; }
+  .iconCont .icon {
+    display: inline-block;
+    border-radius: 50%; }
 
 body {
   left: 0;

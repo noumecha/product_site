@@ -2,22 +2,72 @@
 
 .pageFooter {
 
-    right: 0;
-    left:0;
     margin:0;
+    margin-top:10px;
+    bottom:0;
+    padding-top:$tmc_default_padding + 60px;
+    padding-bottom: $tmc_default_padding + 60px;
     width: 100%;
-    padding:0;
+    height: auto;
+    position:relative;
     //padding:$tmc_default_padding;
-    background:$tmc_primary;
-    text-align: center;
+    background:$tmc_secondary;
 
-    .link { 
+    code {
 
-        //border:1px solid black;
+        margin-top:70px;
+        bottom:0;
         display:block;
-        position:relative;
+        width: 100%;
         text-align: center;
-        margin-top:2px;
+        color:$tmc_thirdly;
+    }
+
+    .iconCont {
+
+        background:inherit;
+        display: inline-block;
+        margin-top:20px;
+        margin-top:20px;
+        width: 100%;
+        color:$tmc_thirdly;
+        font-weight: bold;
+        font-size:20px;
+        //border:1px solid black;
+
+        a {
+
+            text-decoration: none;
+            color:$tmc_thirdly;
+
+        }
+
+        .icon {
+            
+            display:inline-block;
+            border-color:$tmc_thirdly;
+
+        }
+
+    }
+
+    .hLine {
+
+        display:block;
+        margin-top:10px;
+        width:80%;
+        height: 1px;
+        margin-left: 10%;
+
+    }
+
+    @media only screen and (max-width: 480px) {
+
+        .iconCont {
+
+            font-size:15px;
+
+        }
 
     }
 
