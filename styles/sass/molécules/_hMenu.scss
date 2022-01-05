@@ -30,7 +30,7 @@
 
             box-sizing: border-box;
             display: block;
-            border:1px solid black;
+            //border:1px solid black;
             width: 100%;
             border-top: 1px solid $tmc_primary;
 
@@ -58,11 +58,14 @@
 
         .flexContainer .link{
 
-            box-sizing: border-box;
+            //box-sizing: border-box;
             display: block;
-            border:1px solid black;
+            //border:1px solid black;
             width: 100%;
-            border-top: 1px solid $tmc_primary;
+            font-size:18px;
+            padding-top:5px;
+            padding-bottom: 5px;
+            //border-top: 1px solid $tmc_primary;
 
         }
 
