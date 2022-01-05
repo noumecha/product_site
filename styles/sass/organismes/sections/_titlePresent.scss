@@ -1,0 +1,26 @@
+@import "../../variables";
+
+.titlePresent {
+
+    display:block;
+    width: 100%;
+    float:left;
+    margin:0 auto;
+    padding:0;
+    background:$tmc_primary;
+    color:white;
+    text-align: center;
+
+    .h1__title {
+
+        text-align: center;
+        color:$tmc_thirdly;
+
+    }
+    .pText {
+
+        text-align:center;
+
+    }
+
+}

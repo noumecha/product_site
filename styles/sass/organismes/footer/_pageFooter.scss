@@ -1,0 +1,24 @@
+@import "../../variables";
+
+.pageFooter {
+
+    right: 0;
+    left:0;
+    margin:0;
+    width: 100%;
+    padding:0;
+    //padding:$tmc_default_padding;
+    background:$tmc_primary;
+    text-align: center;
+
+    .link { 
+
+        //border:1px solid black;
+        display:block;
+        position:relative;
+        text-align: center;
+        margin-top:2px;
+
+    }
+
+}

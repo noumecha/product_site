@@ -8,6 +8,7 @@
 @import "./atomes/iconCircle";
 @import "./atomes/image";
 @import "./atomes/imageCircle";
+@import "./atomes/line";
 @import "./atomes/inputText";
 @import "./atomes/textArea";
 @import "./atomes/labelText";
@@ -17,11 +18,22 @@
 @import "./molécules/flexContainer";
 @import "./molécules/imageResBlock";
 @import "./molécules/responsiveText";
+@import "./molécules/slider-container";
+@import "./atomes/theSlide";
+@import "./atomes/dot";
+@import "./organismes/footer/pageFooter";
+@import "./organismes/sections/titlePresent";
+@import "./organismes/header/entete";
+@import "./organismes/sections/sliderSection";
+@import "./organismes/sections/imageTextSection";
 
 body {
 
     left:0;
     top:0;
+    width:100%;
+    margin:0;
+    padding:0;
 
     @media only screen and (max-width: 480px) {
         left:0;

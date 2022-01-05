@@ -4,9 +4,10 @@
 
     display:block;
     border:$tmc_default_border;
+    padding:$tmc_default_padding - 15px;
     height:400px;
     width: 500px;
-    margin-top: 90px;
+    margin-top: 0px;
 
     .image {
 
@@ -14,6 +15,16 @@
         height:100%;
         width:100%;
         display:block;
+
+    }
+
+    @media only screen and (max-width: 480px) {
+
+        width:100%;
+        height:300px;
+        padding:0;
+        border:none;
+        left:0;
 
     }
 

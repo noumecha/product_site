@@ -1,0 +1,40 @@
+@import "../../variables";
+
+.imageTextSection {
+
+    display:inline-block;
+    width: 100%;
+    height:600px;
+    margin:0 auto;
+    padding:0;
+    border-top:2px solid blue;
+    //background:$tmc_primary;e;
+    text-align: center;
+
+    .imageResBlock {
+
+        display: block;
+        margin: 0 auto;
+        right:0;
+        border:1px solid black;
+
+    }
+
+    .line {
+
+        display: inline-block;
+        height:60px;
+
+    }
+
+    .responsiveText {
+
+        left:0;
+        margin:0 auto;
+        display:block;
+        border:1px solid black;
+
+    }
+
+
+}

@@ -61,6 +61,14 @@
   border-radius: 50%;
   background: #04BF37; }
 
+.line {
+  display: block;
+  float: left;
+  margin: 0 auto;
+  height: 500px;
+  width: 2px;
+  background: #0B0C0C; }
+
 .inputText {
   border: 0;
   border-bottom: 2px solid #04BF37;
@@ -90,7 +98,6 @@
   overflow: hidden;
   background: #0B0C0C;
   display: inline-block;
-  position: fixed;
   top: 0;
   left: 0;
   margin: 0 auto; }
@@ -159,30 +166,183 @@
 .imageResBlock {
   display: block;
   border: 2px solid #04BF37;
+  padding: 10px;
   height: 400px;
   width: 500px;
-  margin-top: 90px; }
+  margin-top: 0px; }
   .imageResBlock .image {
     position: relative;
     height: 100%;
     width: 100%;
     display: block; }
+  @media only screen and (max-width: 480px) {
+    .imageResBlock {
+      width: 100%;
+      height: 300px;
+      padding: 0;
+      border: none;
+      left: 0; } }
 
 .responsiveText {
   display: block;
   border: 2px solid #04BF37;
-  height: 400px;
+  padding: 10px;
+  height: auto;
   width: 500px;
-  margin-top: 90px; }
+  margin: 0 auto; }
   .responsiveText .pText {
     display: block;
     height: 100%;
     width: 100%;
     position: relative; }
+  @media only screen and (max-width: 480px) {
+    .responsiveText {
+      width: 100%;
+      height: 300px;
+      padding: 0;
+      border: none;
+      left: 0; }
+      .responsiveText .pText {
+        font-size: 16px; } }
+
+.slider-container {
+  height: 600px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0; }
+  .slider-container .theSlide {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 550px; }
+    .slider-container .theSlide .image {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      display: block; }
+  .slider-container .bull_cont {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    text-align: center; }
+  .slider-container .active {
+    background: #717171; }
+  @media only screen and (max-width: 480px) {
+    .slider-container {
+      height: 350px; }
+      .slider-container .theSlide {
+        height: 300px; }
+      .slider-container .bull_cont {
+        position: relative;
+        width: 100%;
+        text-align: center; } }
+
+.theSlide {
+  display: block;
+  overflow: hidden; }
+  .theSlide .link {
+    color: #FCFEFD;
+    font-size: 20px;
+    padding: 15px;
+    background: rgba(11, 12, 12, 0.4);
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    bottom: 0; }
+
+.dot {
+  height: 25px;
+  width: 25px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; }
+
+.pageFooter {
+  right: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  background: #04BF37;
+  text-align: center; }
+  .pageFooter .link {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-top: 2px; }
+
+.titlePresent {
+  display: block;
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  padding: 0;
+  background: #04BF37;
+  color: white;
+  text-align: center; }
+  .titlePresent .h1__title {
+    text-align: center;
+    color: #FCFEFD; }
+  .titlePresent .pText {
+    text-align: center; }
+
+.entete {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  background: #0B0C0C;
+  border: 1px solid #0B0C0C;
+  z-index: 100; }
+  .entete .hMenu {
+    display: inline-block; }
+
+.sliderSection {
+  display: block;
+  width: 100%;
+  height: auto;
+  left: 0;
+  margin: 100px auto;
+  background: #0B0C0C;
+  position: relative;
+  overflow: hidden; }
+
+.imageTextSection {
+  display: inline-block;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0;
+  border-top: 2px solid blue;
+  text-align: center; }
+  .imageTextSection .imageResBlock {
+    display: block;
+    margin: 0 auto;
+    right: 0;
+    border: 1px solid black; }
+  .imageTextSection .line {
+    display: inline-block;
+    height: 60px; }
+  .imageTextSection .responsiveText {
+    left: 0;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black; }
 
 body {
   left: 0;
-  top: 0; }
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
   @media only screen and (max-width: 480px) {
     body {
       left: 0;

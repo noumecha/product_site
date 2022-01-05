@@ -1,0 +1,12 @@
+@import "../variables";
+
+.line {
+
+    display:block;
+    float:left;
+    margin:0 auto;
+    height:500px;
+    width:2px;
+    background:$tmc_secondary;
+
+}

@@ -4,9 +4,10 @@
 
     display:block;
     border:$tmc_default_border;
-    height:400px;
+    padding:$tmc_default_padding - 15px;
+    height:auto;
     width: 500px;
-    margin-top: 90px;
+    margin:0 auto;
 
     .pText {
 
@@ -14,6 +15,22 @@
         height:100%;
         width:100%;
         position:relative;
+
+    }
+
+    @media only screen and (max-width: 480px) {
+
+        width:100%;
+        height:300px;
+        padding:0;
+        border:none;
+        left:0;
+
+        .pText {
+
+            font-size: $tmc_resp_text_size;
+
+        }
 
     }
 

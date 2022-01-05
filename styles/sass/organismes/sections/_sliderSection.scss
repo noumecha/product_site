@@ -1,0 +1,15 @@
+@import "../../variables";
+
+.sliderSection {
+
+    display:block;
+    width:100%;
+    height:auto;
+    left:0;
+    margin: 100px auto;
+    background:$tmc_secondary;
+    //border:2px solid $tmc_primary;
+    position:relative;
+    overflow:hidden;
+
+}
