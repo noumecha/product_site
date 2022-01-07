@@ -1,10 +1,10 @@
 @import "../variables";
 
-.boutton {
+.boutton__download {
 
     border: 0;
-    border-radius: $tmc_default_btn_radius ;
-    background:$tmc_primary;
+    border-radius: $tmc_default_btn_radius;
+    background:$tmc_secondary;
     padding:$tmc_default_padding - 15px;
     color: $tmc_thirdly;
     font-size:$tmc_text_size - 5px;
