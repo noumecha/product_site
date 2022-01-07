@@ -429,7 +429,8 @@
   text-align: center; }
   .iconCont .icon {
     display: inline-block;
-    border-radius: 50%; }
+    border-radius: 50%;
+    background: #FCFEFD; }
 
 .boutton__download {
   border: 0;
