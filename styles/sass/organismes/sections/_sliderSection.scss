@@ -2,14 +2,28 @@
 
 .sliderSection {
 
-    display:block;
-    width:100%;
-    height:auto;
-    left:0;
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    left: 0;
     margin: 100px auto;
-    background:$tmc_secondary;
-    //border:2px solid $tmc_primary;
-    position:relative;
-    overflow:hidden;
+    //background:$tmc_secondary;
+    border: 2px solid $tmc_primary;
+    position: relative;
+    overflow: hidden;
+
+    @media only screen and (max-width: 480px) {
+
+        width: 100%;
+
+        .slider-container {
+
+            display:block;
+            width: 100%;
+
+        }
+
+    }
 
 }
