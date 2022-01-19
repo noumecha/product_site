@@ -4,14 +4,17 @@
 
     border: 0;
     border-radius: $tmc_default_btn_radius;
-    background:$tmc_secondary;
-    padding:$tmc_default_padding - 15px;
+    background:$tmc_primary;
+    margin-top: 7px;
+    padding:$tmc_default_padding - 5px;
     color: $tmc_thirdly;
-    font-size:$tmc_text_size - 5px;
+    font-size:$tmc_text_size - 0px;
+    text-decoration: none;
 
     &:hover {
 
         background:$tmc_fourthly;
+        color: white;
 
     }
 

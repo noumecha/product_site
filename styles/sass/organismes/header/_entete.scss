@@ -2,58 +2,65 @@
 
 .entete {
 
-    display:block;
-    width:100%;
-    height:auto;
-    position:fixed;
-    top:0;
-    left:0;
-    margin:0 auto;
-    background:$tmc_secondary;
-    //border:1px solid $tmc_thirdly;
-    z-index: 100;
 
-    a {
-        text-decoration: none;
-    }
+    .container {
 
-    .icon {
+        .navbar-brand {
 
-        display:inline-block;
-        background:$tmc_primary;
-        border:0;
-        margin:0 auto;
-        position: relative;
-        width:60px;
-        margin-left: 30px;
-        height:100%;
-        border-radius:50%;
-        //padding:0;
+            font-weight: bold;
+            color: $tmc_primary;
+            text-transform: uppercase;
+            font-size: 25px;
+            letter-spacing: 2px;
 
-    }
+            &:hover {
 
-    .hMenu {    
+                color: $tmc_fourthly;
 
-        display:inline-block;
-        height:100%;
-        //border:1px solid $tmc_thirdly;
+            }
 
-        .hamburgerMenu, #hambuger {
+        }
 
-            right:0;
+        div {
+
+            .navbar-nav {
+
+                a {
+
+                    font-weight: bold;
+
+                }
+
+                .active > .nav-link , .nav-link.active, .nav-link.show, .show > .nav-link {
+
+                    color: $tmc_thirdly
+
+                }
+
+                .link {
+
+                    color: $tmc_thirdly;
+                    padding: .2rem 1rem;
+
+                    &:hover { 
+
+                        color: gray;
+
+                    }                    
+
+                }
+
+            }
 
         }
 
     }
 
-    @media only screen and (max-width: 820px){
+    @media  only screen and (max-width: 820px){
+        
 
-        .icon {
-
-            display:none;
-
-        }
 
     }
 
 }
+

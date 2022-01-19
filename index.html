@@ -21,79 +21,253 @@
 
   </head>
 
-  <body onload="showSlide();">
+  <body>
 
-    <script type="text/javascript" src="./scripts/index.js">
+    <!-- testing navbar 
 
-    </script>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <a class="navbar-brand" href="#"> KEEPASS </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+    <span class="navbar-toggler-icon"></span>
+
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 
     <!-- header du site ici  -->
-
-  <div class="entete">
-
-    <div class="container">
-
-      <a href="#">
-        
-        <img src="./assets/images/keepass.jpeg" alt="" class="icon">
-      
-      </a>
-
-      <div class="hMenu">
-
-        <label for="hamburger" class="hamburgerMenu"> &#9776; </label>
-        
-        <input type="checkbox" id="hamburger"/>
-
-        <div class="flexContainer">
-
-          <a href="#" class="link">Accueil</a>
-          <a href="./pages/about.html" class="link">A propos</a>
-          <a href="./pages/help.html" class="link">Aide </a>
-          <a href="./pages/use.html" class="link">Utilisation</a>
-          <a href="./pages/contact.html" class="link">Contact</a>
-          <a href="./pages/download.html" class="link">Télécharger</a> 
+    <nav class="entete navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   
+      <div class="container">
+
+          <a class="navbar-brand" href="#">KEEPASS</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item active">
+
+              <a class="nav-link link" href="#">Accueil</a>
+
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link link" href="./pages/about.html">A propos</a>
+              
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link link" href="./pages/contact.html">Contact</a>
+              
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link link" href="./pages/download.html">Télécharger</a>
+              
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link link" href="./pages/use.html">Utilisation</a>
+              
+            </li>
+
+            <li class="nav-item">
+
+              <a class="nav-link link" href="./pages/help.html">Aide</a>
+              
+            </li>
+
+          </ul>
 
         </div>
 
       </div>
 
+    </nav>
+  
+    <!-- carrousel with arrows -->
+
+    <div id="carouselExampleIndicators" class="sliderSection carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+
+      </ol>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+
+          <img src="./assets/images/img_1.jpg" class="d-block w-100" alt="...">
+
+          <div class="carousel-caption d-none d-md-block">
+
+            <h5>Protection de mot de passe</h5>
+            <p> Keepass est un logiciel libre de protection de mot de passe </p>
+            <p><a class="boutton__download" href="#">Télécharger Keepass</a></p>
+
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+
+          <img src="./assets/images/img_2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+            <h5>Protection de mot de passe</h5>
+            <p> Keepass est un logiciel libre de protection de mot de passe </p>
+            <p><a class="boutton__download" href="#">Télécharger Keepass</a></p>
+
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+
+          <img src="./assets/images/img_3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+            <h5>Protection de mot de passe</h5>
+            <p> Keepass est un logiciel libre de protection de mot de passe </p>
+            <p><a class="boutton__download" href="#">Télécharger Keepass</a></p>
+
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+
+          <img src="./assets/images/img_4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+            <h5>Protection de mot de passe</h5>
+            <p> Keepass est un logiciel libre de protection de mot de passe </p>
+            <p><a class="boutton__download" href="#">Télécharger Keepass</a></p>
+
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+
+          <img src="./assets/images/img_5.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+            <h5>Protection de mot de passe</h5>
+            <p> Keepass est un logiciel libre de protection de mot de passe </p>
+            <p><a class="boutton__download" href="#">Télécharger Keepass</a></p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+
+      </button>
+
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+
+      </button>
+
     </div>
 
-  </div>
+    <!-- hero section :) -->
 
-    <!-- le pied de page du site ici -->
+    <section class="hero-section">
 
-    <div class="pageFooter">
 
-      <div class="iconCont">
 
-          <img src="./assets/icons/facebook.png" class="icon" title="follow me on facebook" alt="facebook">
-          <img src="./assets/icons/gmail--best.png" class="icon" title="write me an email : noumechaivan@gmail.com" alt="gmail">
-          <img src="./assets/icons/signe-github.png" class="icon" title="visit my github : noumecha" alt="github">
-          <img src="./assets/icons/whatsapp.png" class="icon" title="text me on whatsapp : 653 46 53 48" alt="whatsapp">
+    </section>
+
+      <!-- le pied de page du site ici -->
+
+      <div class="pageFooter">
+
+        <div class="iconCont">
+
+            <img src="./assets/icons/facebook.png" class="icon" title="follow me on facebook" alt="facebook">
+            <img src="./assets/icons/gmail--best.png" class="icon" title="write me an email : noumechaivan@gmail.com" alt="gmail">
+            <img src="./assets/icons/signe-github.png" class="icon" title="visit my github : noumecha" alt="github">
+            <img src="./assets/icons/whatsapp.png" class="icon" title="text me on whatsapp : 653 46 53 48" alt="whatsapp">
+
+        </div>
+
+        <div class="hLine">
+        </div>
+
+
+        <div class="iconCont">
+
+          <span>&copy;Noumecha Spaker |<a href="/"> contact us </a></span>
+
+        </div>
+
+        <div class="hLine">
+        </div>
+
+        <code>
+          TMC makeIt | byteLab products
+        </code>
 
       </div>
 
-      <div class="hLine">
-      </div>
-
-
-      <div class="iconCont">
-
-        <span>&copy;Noumecha Spaker |<a href="/"> contact us </a></span>
-
-      </div>
-
-      <div class="hLine">
-      </div>
-
-      <code>
-        TMC makeIt | byteLab products
-      </code>
-
-    </div>
+      <script type="text/javascript" src="scripts/jquery.js"></script>
+      <script type="text/javascript" src="scripts/popper.js"></script>
+      <script type="text/javascript" src="scripts/bootstrap.js"></script>
 
   </body>
 
