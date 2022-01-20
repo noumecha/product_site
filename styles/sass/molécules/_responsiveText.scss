@@ -2,37 +2,28 @@
 
 .responsiveText {
 
-    display:block;
-    border:$tmc_default_border;
-    padding:$tmc_default_padding - 15px;
-    height:auto;
-    width: 500px;
-    margin:0 auto;
+    //border: $tmc_default_border;
+    padding: $tmc_default_padding;
+    width: 100%;
+    background-color: $tmc_fourthly;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    cursor: crosshair;
+
+    .h1__title {
+
+        color: $tmc_thirdly;
+
+    }
 
     .pText {
 
-        display: block;
-        height:100%;
-        width:100%;
-        position:relative;
+        color: $tmc_thirdly;
+        padding-top: $tmc_default_padding - 15px;
+        text-align: center;
 
     }
 
-    @media only screen and (max-width: 480px) {
-
-        width:100%;
-        height:300px;
-        padding:0;
-        margin:0;
-        border:none;
-        left:0;
-
-        .pText {
-
-            font-size: $tmc_resp_text_size;
-
-        }
-
-    }
 
 }

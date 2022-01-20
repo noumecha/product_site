@@ -1,6 +1,7 @@
 .h1__title {
-  color: #04BF37;
-  font-size: 50px;
+  color: #1CA6E1;
+  font-size: 35px;
+  font-weight: 800;
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
   text-transform: capitalize; }
@@ -163,46 +164,27 @@
 
 .imageResBlock {
   display: block;
-  border: 2px solid #04BF37;
-  padding: 10px;
-  height: 400px;
-  width: 500px;
-  margin-top: 0px; }
+  margin-top: 20px; }
   .imageResBlock .image {
     position: relative;
     height: 100%;
     width: 100%;
     display: block; }
-  @media only screen and (max-width: 480px) {
-    .imageResBlock {
-      width: 100%;
-      height: 300px;
-      padding: 0;
-      border: none;
-      left: 0; } }
 
 .responsiveText {
-  display: block;
-  border: 2px solid #04BF37;
-  padding: 10px;
+  padding: 25px;
+  width: 100%;
+  background-color: #1CA6E1;
   height: auto;
-  width: 500px;
-  margin: 0 auto; }
+  text-align: center;
+  margin: 0 auto;
+  cursor: crosshair; }
+  .responsiveText .h1__title {
+    color: #FCFEFD; }
   .responsiveText .pText {
-    display: block;
-    height: 100%;
-    width: 100%;
-    position: relative; }
-  @media only screen and (max-width: 480px) {
-    .responsiveText {
-      width: 100%;
-      height: 300px;
-      padding: 0;
-      margin: 0;
-      border: none;
-      left: 0; }
-      .responsiveText .pText {
-        font-size: 16px; } }
+    color: #FCFEFD;
+    padding-top: 10px;
+    text-align: center; }
 
 .slider-container {
   height: 450px;
