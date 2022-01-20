@@ -93,7 +93,8 @@
 
 .pText {
   text-align: justify;
-  font-size: 22px; }
+  font-size: 22px;
+  font-weight: 700; }
 
 .hMenu {
   overflow: hidden;
@@ -347,7 +348,8 @@
     width: 60%;
     margin: 30px auto;
     font-size: 22px;
-    line-height: 1.9; }
+    line-height: 1.9;
+    text-align: center; }
     .sliderSection .carousel-inner .carousel-caption p .boutton__download {
       text-decoration: none; }
 @media only screen and (max-width: 820px) {
