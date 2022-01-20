@@ -93,8 +93,7 @@
 
 .pText {
   text-align: justify;
-  font-size: 22px;
-  font-weight: 700; }
+  font-size: 22px; }
 
 .hMenu {
   overflow: hidden;
@@ -163,14 +162,11 @@
       background: #04BF37;
       color: white; }
 
-.imageResBlock {
-  display: block;
-  margin-top: 20px; }
-  .imageResBlock .image {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    display: block; }
+.imageResBlock .image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: block; }
 
 .responsiveText {
   padding: 25px;
@@ -348,6 +344,7 @@
     width: 60%;
     margin: 30px auto;
     font-size: 22px;
+    font-weight: 700;
     line-height: 1.9;
     text-align: center; }
     .sliderSection .carousel-inner .carousel-caption p .boutton__download {
@@ -441,6 +438,13 @@
   .boutton__download:hover {
     background: #1CA6E1;
     color: white; }
+
+.hero-section {
+  padding: 20px 0 20px 0; }
+  .hero-section .imageResBlock img {
+    width: 100%; }
+  .hero-section .pText {
+    font-weight: 0; }
 
 body {
   font-family: 'poppins';
