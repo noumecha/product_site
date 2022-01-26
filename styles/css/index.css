@@ -39,8 +39,7 @@
 
 .circleImageContainer {
   display: block;
-  border-radius: 50%;
-  background: #0B0C0C; }
+  border-radius: 50%; }
 
 .iconCircle {
   border-radius: 50%; }
@@ -441,10 +440,22 @@
 
 .hero-section {
   padding: 20px 0 20px 0; }
-  .hero-section .imageResBlock img {
-    width: 100%; }
+  .hero-section .circleImageContainer {
+    margin-bottom: -70px;
+    z-index: 500; }
+    .hero-section .circleImageContainer img {
+      border: 3px solid #04BF37;
+      height: 400px;
+      width: 400px;
+      border-radius: 50%; }
   .hero-section .pText {
-    font-weight: 0; }
+    font-weight: 0;
+    border: 3px solid #04BF37;
+    border-radius: 4px;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px; }
 
 body {
   font-family: 'poppins';
