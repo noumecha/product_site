@@ -448,11 +448,57 @@
       height: 400px;
       width: 400px;
       border-radius: 50%; }
+      .hero-section .circleImageContainer img:hover {
+        cursor: pointer; }
   .hero-section .pText {
     font-weight: 0;
     border: 3px solid #04BF37;
     border-radius: 4px;
-    padding-top: 60px;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px; }
+    .hero-section .pText a {
+      color: #04BF37;
+      text-decoration: none;
+      font-weight: bold; }
+
+.present-section {
+  padding: 20px 0 20px 0; }
+  .present-section .circleImageContainer {
+    border: 1px solid black;
+    border-radius: 0px;
+    position: relative;
+    margin-bottom: -70px;
+    z-index: 500; }
+    .present-section .circleImageContainer img {
+      border: 1px solid #0B0C0C;
+      position: relative;
+      display: block;
+      height: 100%;
+      width: 100%; }
+      .present-section .circleImageContainer img:hover {
+        cursor: pointer; }
+    .present-section .circleImageContainer span {
+      display: block;
+      position: absolute;
+      font-weight: bold;
+      margin: 0 auto;
+      top: 70%;
+      left: 0;
+      right: 0;
+      background: rgba(11, 12, 12, 0.8);
+      box-shadow: 0px 1px 1px 0px #0B0C0C;
+      color: white;
+      padding: 10px;
+      cursor: pointer; }
+      .present-section .circleImageContainer span:hover {
+        background-color: rgba(4, 191, 55, 0.8); }
+  .present-section .pText {
+    font-weight: 0;
+    border: 1px solid #0B0C0C;
+    border-radius: 4px;
+    padding-top: 110px;
     padding-left: 10px;
     padding-bottom: 10px;
     padding-right: 10px; }
