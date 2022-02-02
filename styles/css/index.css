@@ -7,9 +7,9 @@
   text-transform: capitalize; }
 
 .link {
-  color: #FCFEFD;
+  color: default;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 18px;
   padding: 30px; }
 
 .icon {
@@ -33,7 +33,7 @@
   background: #04BF37;
   padding: 10px;
   color: #FCFEFD;
-  font-size: 17px; }
+  font-size: 15px; }
   .boutton:hover {
     background: #1CA6E1; }
 
@@ -87,12 +87,12 @@
     border-bottom: 2px solid #1CA6E1; }
 
 .labelText {
-  font-size: 22px;
+  font-size: 20px;
   text-align: justify; }
 
 .pText {
   text-align: justify;
-  font-size: 22px; }
+  font-size: 20px; }
 
 .hMenu {
   overflow: hidden;
@@ -145,9 +145,9 @@
     background: #04BF37; }
 
 .link {
-  color: #FCFEFD;
+  color: default;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 18px;
   padding: 30px; }
 
 .flexContainer {
@@ -432,7 +432,7 @@
   margin-top: 7px;
   padding: 20px;
   color: #FCFEFD;
-  font-size: 22px;
+  font-size: 20px;
   text-decoration: none; }
   .boutton__download:hover {
     background: #1CA6E1;
@@ -444,7 +444,7 @@
     margin-bottom: -70px;
     z-index: 500; }
     .hero-section .circleImageContainer img {
-      border: 3px solid #04BF37;
+      border: 2px solid #04BF37;
       height: 400px;
       width: 400px;
       border-radius: 50%; }
@@ -452,12 +452,12 @@
         cursor: pointer; }
   .hero-section .pText {
     font-weight: 0;
-    border: 3px solid #04BF37;
+    border: 2px solid #04BF37;
     border-radius: 4px;
     padding-top: 70px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px; }
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px; }
     .hero-section .pText a {
       color: #04BF37;
       text-decoration: none;
@@ -465,43 +465,35 @@
 
 .present-section {
   padding: 20px 0 20px 0; }
-  .present-section .circleImageContainer {
-    border: 1px solid black;
-    border-radius: 0px;
-    position: relative;
-    margin-bottom: -70px;
-    z-index: 500; }
-    .present-section .circleImageContainer img {
-      border: 1px solid #0B0C0C;
-      position: relative;
-      display: block;
-      height: 100%;
-      width: 100%; }
-      .present-section .circleImageContainer img:hover {
-        cursor: pointer; }
-    .present-section .circleImageContainer span {
-      display: block;
-      position: absolute;
-      font-weight: bold;
-      margin: 0 auto;
-      top: 70%;
-      left: 0;
-      right: 0;
-      background: rgba(11, 12, 12, 0.8);
-      box-shadow: 0px 1px 1px 0px #0B0C0C;
-      color: white;
-      padding: 10px;
-      cursor: pointer; }
-      .present-section .circleImageContainer span:hover {
-        background-color: rgba(4, 191, 55, 0.8); }
   .present-section .pText {
     font-weight: 0;
-    border: 1px solid #0B0C0C;
     border-radius: 4px;
-    padding-top: 110px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px; }
+    padding: 20px; }
+  .present-section h2 {
+    text-transform: uppercase; }
+  .present-section .link {
+    color: #0B0C0C; }
+    .present-section .link:hover {
+      color: #1CA6E1; }
+
+.h2__title {
+  color: #1CA6E1;
+  font-size: 35px;
+  padding: 5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.bolder {
+  font-weight: 1000;
+  color: #04BF37; }
+
+.smallTxt {
+  color: #0B0C0C;
+  padding: 20px;
+  font-size: 18px;
+  text-transform: capitalize; }
 
 body {
   font-family: 'poppins';
