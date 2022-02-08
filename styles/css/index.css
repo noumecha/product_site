@@ -424,11 +424,24 @@
 .iconCont {
   display: block;
   background: #04BF37;
-  text-align: center; }
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
   .iconCont .icon {
-    display: inline-block;
-    border-radius: 50%;
-    background: #FCFEFD; }
+    display: block;
+    color: #0B0C0C;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px; }
+    .iconCont .icon i {
+      color: white;
+      display: block;
+      text-align: center;
+      font-size: 30px; }
+    .iconCont .icon:hover {
+      background: #FCFEFD; }
+      .iconCont .icon:hover i {
+        color: #0B0C0C; }
 
 .boutton__download {
   border: 0;
@@ -441,6 +454,8 @@
   text-decoration: none; }
   .boutton__download:hover {
     background: #1CA6E1;
+    color: white; }
+  .boutton__download i {
     color: white; }
 
 .hero-section {

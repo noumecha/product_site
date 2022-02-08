@@ -2,15 +2,41 @@
 
 .iconCont {
 
-    display:block;
-    background:$tmc_primary;
+    display: block;
+    background: $tmc_primary;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
     .icon {
 
-        display:inline-block;
-        border-radius: 50%;
-        background:$tmc_thirdly;
+        display: block;
+        color: $tmc_secondary;
+        border-radius: 5px;
+        height: 50px;
+        width: 50px;
+
+        i {
+
+            color: white;
+            display: block;
+            text-align: center;
+            font-size: 30px;
+
+        }
+
+        &:hover {
+
+            background: $tmc_thirdly;
+            
+            i {
+
+                color: $tmc_secondary;
+
+            }
+
+        }
+
 
     }
    
