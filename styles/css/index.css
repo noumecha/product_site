@@ -169,7 +169,7 @@
 
 .responsiveText {
   padding: 25px;
-  width: 100%;
+  display: block;
   background-color: #1CA6E1;
   height: auto;
   text-align: center;
@@ -529,11 +529,15 @@ body {
     width: 100%; }
   body .w-1000 {
     height: 100vh; }
+  body section {
+    width: 100%; }
   @media only screen and (max-width: 480px) {
     body {
       left: 0;
       right: 0;
-      top: 0; } }
+      top: 0; }
+      body div, body section {
+        width: 100%; } }
   @media only screen and (max-width: 820px) {
     body div, body section {
       width: 100%; } }
