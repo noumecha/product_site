@@ -265,6 +265,11 @@
     width: 100%;
     text-align: center;
     color: #FCFEFD; }
+    .pageFooter code .icon {
+      display: inline-block;
+      height: 70px;
+      width: 70px;
+      border: none; }
   .pageFooter .iconCont {
     background: inherit;
     display: inline-block;
